@@ -19,4 +19,7 @@ func main() {
 	fmt.Println("Parallelism")
 	ParallelismDriverFunction()
 	fmt.Println("--------------------------------------")
+	fmt.Println("Alphabets Parallelism")
+	PrintAlphabetsParallelism()
+	fmt.Println("--------------------------------------")
 }
