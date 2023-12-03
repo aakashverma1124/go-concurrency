@@ -10,9 +10,18 @@
 
 ![3.png](https://learnwithinnoskrit.s3.amazonaws.com/go-concurrency/3.png)
 
+Check [Code Examples](https://github.com/aakashverma1124/go-concurrency/blob/main/introduction)
+
 ### Conclusion
 
 |              | Single Core                     | Multi Core              |
 |--------------|---------------------------------|-------------------------|
 | Synchronous  | Neither Concurrent nor Parallel | Parallel                |
 | Asynchronous | Concurrent                      | Concurrent and Parallel |
+
+
+### Deadlock
+
+Deadlock is a state in which a task starts waiting for something that will not happen. As a result, it stops progressing.
+
+Check [Code Examples](https://github.com/aakashverma1124/go-concurrency/blob/main/deadlock/deadlock.go)
