@@ -24,4 +24,20 @@ Check [Code Examples](https://github.com/aakashverma1124/go-concurrency/blob/mai
 
 Deadlock is a state in which a task starts waiting for something that will not happen. As a result, it stops progressing.
 
-Check [Code Examples](https://github.com/aakashverma1124/go-concurrency/blob/main/deadlock/deadlock.go)
+```
+process A {
+     update variable x
+     update variable y
+}
+
+process B {
+     update variable y
+     update variable x
+}
+```
+Suppose two processes (process A and process B) are running simultaneously.
+Since both processes are executing, process A will acquire a lock on variable `x`, and process B will acquire a lock on variable `y`.
+
+![deadlock](https://learnwithinnoskrit.s3.amazonaws.com/go-concurrency/deadlock.png)
+
+Check [Deadlock Code Examples](https://github.com/aakashverma1124/go-concurrency/blob/main/deadlock/deadlock.go)
