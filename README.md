@@ -9,3 +9,10 @@
 ![2.png](https://learnwithinnoskrit.s3.amazonaws.com/go-concurrency/2.png)
 
 ![3.png](https://learnwithinnoskrit.s3.amazonaws.com/go-concurrency/3.png)
+
+### Conclusion
+
+|              | Single Core                     | Multi Core              |
+|--------------|---------------------------------|-------------------------|
+| Synchronous  | Neither Concurrent nor Parallel | Parallel                |
+| Asynchronous | Concurrent                      | Concurrent and Parallel |
